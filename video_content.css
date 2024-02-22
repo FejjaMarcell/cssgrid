@@ -1,0 +1,33 @@
+.page main .video {
+    background-color: aquamarine;
+    grid-area: video;
+}
+.page main article {
+    background-color: white;
+    grid-area: szoveg;
+    
+}
+
+.page main .kep1 {
+    background-color: aquamarine;
+    grid-area: kep1;
+    
+}
+
+.page main .kep2 {
+    background-color: aquamarine;
+    grid-area: kep2;
+    
+}
+
+.page main .kep3 {
+    background-color: aquamarine;
+    grid-area: kep3;
+    
+}
+
+.page main .kep4 {
+    background-color: aquamarine;
+    grid-area: kep4;
+    
+}

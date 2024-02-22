@@ -1,0 +1,53 @@
+* {
+    border: solid red 1px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    display: grid;
+
+    grid-template-columns: 350px 1fr 200px;
+    grid-template-rows: 200px 80px 1fr 200px;
+
+}
+
+.page header {
+    /*
+    grid-column-start: 1;
+    grid-column-end: -1; végéig tart
+    */
+    /*
+    grid-column: 1 / 4; egyben az előző kettő
+    */
+    grid-column: 1 / span 3; /*ugyan az mint fölötte*/
+    grid-row: 1;
+}
+
+.page nav.main-menu {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.page nav.sub-menu {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.page main {
+    grid-column: 2 / -1;
+    grid-row: 3;
+}
+
+.page footer {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
+
+.page aside {
+    grid-column: 3;
+    grid-row: 4;
+}
