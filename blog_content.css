@@ -1,0 +1,30 @@
+.page main .szoveg1 {
+    background-color: white;
+    grid-area: szoveg1;
+}
+.page main .szoveg2 {
+    background-color: white;
+    grid-area: szoveg2;
+    
+}
+
+.page main .szoveg3 {
+    background-color: white;
+    grid-area: szoveg3;
+    
+}
+
+.page main .kep1 {
+    background-color: greenyellow;
+    grid-area: kep1;
+    
+    
+}
+
+.page main .kep2 {
+    background-color: grey;
+    grid-area: kep2;
+    
+    
+}
+
